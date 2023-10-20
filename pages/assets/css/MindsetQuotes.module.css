@@ -1,0 +1,24 @@
+.mind-quotes_wrapper{
+ background-color: #161C39;
+}
+.mind-quotes_wrapper .linear__text{
+  background: linear-gradient(231.56deg, #5A0068 0%, #FF432A 11.56%, #E04349 24.48%, #2A3FFF 80.21%, #000235 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mind-quotes_wrapper .__number{
+  background: linear-gradient(277.37deg, rgba(184, 58, 111, 0.3) -14.79%, rgba(49, 118, 199, 0.3) 58.5%, rgba(0, 55, 137, 0.3) 120.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.5;
+  letter-spacing: -0.02em;
+  font-size: 204px;
+  line-height: 204px;
+  font-family: gilroyExtraBold, serif;
+}
+.mind-quotes_wrapper .linear__bg{
+  background: linear-gradient(231.56deg, #5A0068 0%, #FF432A 11.56%, #E04349 24.48%, #2A3FFF 80.21%, #000235 100%);
+}
+.slide-button {
+  background: linear-gradient(231.56deg, #5A0068 0%, #FF432A 11.56%, #E04349 24.48%, #2A3FFF 80.21%, #000235 100%);
+}

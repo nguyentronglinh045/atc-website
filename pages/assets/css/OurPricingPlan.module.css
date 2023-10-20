@@ -1,0 +1,44 @@
+.plan_wrapper{
+  background-color: #000235;
+}
+.text__title{
+  background: linear-gradient(110.69deg, #EB5400 23.39%, rgba(27, 164, 229, 0.5) 47.3%, #B40FE7 74.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.text__main{
+  background: linear-gradient(267.37deg, #9130F4 55.42%, #4646F9 96.83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card_wrapper{
+  background: #B7C5FF;
+  box-shadow: 0 20px 67px rgba(0, 0, 0, 0.0574332);
+  border-radius: 10px;
+}
+
+.card_header{
+  background: linear-gradient(172.78deg, rgba(145, 48, 244, 0.5) 6.62%, rgba(70, 70, 249, 0.5) 95.38%);
+  border-radius: 10px 10px 0 0;
+}
+.card_header-middle{
+  background: linear-gradient(172.78deg, #9130F4 5.82%, #4646F9 94.58%);
+  /*border-radius: 10px 10px 0 0;*/
+}
+.card_body{
+  box-shadow: 0 20px 67px rgba(0, 0, 0, 0.0574332);
+  border-radius: 10px;
+}
+.btn{
+  background: linear-gradient(267.37deg, #9130F4 55.42%, #4646F9 96.83%);
+  border-radius: 23px;
+}
+.btn-shadow{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.11);
+}
+.text__btn{
+  background: linear-gradient(267.37deg, #9130F4 55.42%, #4646F9 96.83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,7 @@
+.intro_wrapper {
+  background: #000235;
+}
+.intro_wrapper .border-bg{
+  background: linear-gradient(to right, #812DE2 5%, #3A49F9 91%);
+  opacity: inherit;
+}

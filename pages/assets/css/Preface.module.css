@@ -1,0 +1,27 @@
+.preface_wrapper{
+
+}
+.preface_wrapper .linear__text{
+  background: linear-gradient(252.51deg, #B83A6F 61.52%, #3430F4 75.38%, #5A9CFF 87.19%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.preface_wrapper .border_bg{
+  background: linear-gradient(252.51deg, #B83A6F 61.52%, #3430F4 75.38%, #5A9CFF 87.19%);
+}
+.preface_wrapper .btn{
+  background: linear-gradient(60.89deg, #1A2246 25.64%, #161C38 44.34%);
+  font-family: poppinsSemiBold, serif;
+  font-size: 18px;
+  line-height: 18px;
+}
+.preface_wrapper .text__main{
+  line-height: 83px;
+  font-family: poppinsSemiBold, serif;
+}
+.preface_wrapper .text__content{
+  font-size: 22px;
+  line-height: 28px;
+  font-family: manropeMedium, serif;
+  letter-spacing: 0.04em;
+}

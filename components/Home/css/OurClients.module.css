@@ -1,0 +1,40 @@
+.our-client {
+    background: linear-gradient(231.56deg,
+    rgba(90, 0, 104, 0.3) 0%,
+    rgba(255, 67, 42, 0.3) 11.56%,
+    rgba(224, 67, 73, 0.3) 24.48%,
+    rgba(42, 63, 255, 0.3) 80.21%,
+    rgba(0, 2, 53, 0.3) 100%);
+}
+
+.our-client__heading {
+    font-family: manropeExtraBold, serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: 0;
+    text-align: center;
+    color: transparent;
+    background: linear-gradient(231.56deg, #5A0068 0%, #FF432A 11.56%, #E04349 24.48%, #2A3FFF 80.21%, #000235 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.our-client__sub-heading {
+    font-family: poppinsRegular, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #E2E1E4;
+}
+
+.client-card {
+    height: 96px;
+    width: 170px;
+    border-radius: 16px;
+    background: #EBE6FA;
+    box-shadow: 0 30px 40px rgba(212, 217, 232, 0.2);
+
+}

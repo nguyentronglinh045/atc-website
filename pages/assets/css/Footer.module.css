@@ -1,0 +1,14 @@
+.footer__text-shadow {
+    background: -webkit-linear-gradient(135deg, #F1A501, #ED532E);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    text-shadow: 0 4px 4px #8A8A8A40;
+}
+
+.footer__button {
+    border: solid 1px transparent;
+    background-image: linear-gradient(#F1A501, #ED532E), linear-gradient(101deg, #F1A501, #ED532E);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #424242 inset;
+}

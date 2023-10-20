@@ -1,0 +1,47 @@
+.effect {
+    border: 1px solid rgba(255, 255, 255, .25);
+}
+
+.effect:focus, .effect.has-content {
+    border-width: 0;
+    border-left: 1px solid #8882E3;
+    border-right: 1px solid #F6C07C;
+    background-image: linear-gradient(90deg, #8882E3, #DF8381, #F6C07C), linear-gradient(90deg, #8882E3, #DF8381, #F6C07C);
+    background-size: 100% 1px;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+
+.effect ~ label {
+    font-family: poppinsRegular, serif;
+    color: #FAFAFA;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 13px;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: 0.3s;
+}
+.effect:focus ~ label, .effect.has-content ~ label {
+    color: transparent;
+    top: 4px;
+    transform: translateY(0);
+    font-size: 12px;
+    line-height: 18px;
+    transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+    .effect ~ label {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .effect:focus ~ label, .effect.has-content ~ label {
+        font-size: 9px;
+        line-height: 13px;
+    }
+}

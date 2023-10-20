@@ -1,0 +1,26 @@
+
+.display-wrapper .text__title{
+  font-family: poppinsSemiBold, serif;
+}
+.text__content{
+  font-style: italic;
+  font-family: poppinsBold, serif;
+  font-size: 54px;
+  line-height: 81px;
+}
+.text__shadow{
+  text-shadow: 0 10px 18px rgba(9, 104, 93, 0.56);
+}
+.linear__display-title{
+  background: linear-gradient(90deg, #8882E3 0%, #DF8381 46.82%, #F6C07C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.linear__display{
+  color:transparent;
+  --g:linear-gradient(90deg, #8882E3 0%, #DF8381 10.6%, #F6C07C 22.64%);
+  background:
+          var(--g),
+          var(--g)  bottom 2px left 0/100% 2px no-repeat;
+  -webkit-background-clip: text,padding-box;
+}

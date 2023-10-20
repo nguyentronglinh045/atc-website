@@ -1,0 +1,16 @@
+.WeOfferBestServices__all-about-us {
+    position: relative;
+}
+.WeOfferBestServices__all-about-us .text__link{
+    background: linear-gradient(110.69deg, #EB5400 23.39%, rgba(27, 164, 229, 0.5) 47.3%, #B40FE7 74.4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.WeOfferBestServices__all-about-us .text__link > span {
+    color:transparent;
+    --g:linear-gradient(110.69deg, #EB5400 23.39%, rgba(27, 164, 229, 0.5) 47.3%, #B40FE7 74.4%);
+    background:
+            var(--g),
+            var(--g)  bottom 2px left 0/100% 1px no-repeat;
+    -webkit-background-clip: text,padding-box;
+}

@@ -1,0 +1,24 @@
+.process-box {
+    background-color: rgba(48, 14, 53, 0.8);
+}
+
+.process-box__heading {
+    text-transform: uppercase;
+    background: linear-gradient(110.69deg, #EB5400 23.39%, rgba(27, 164, 229, 0.5) 47.3%, #B40FE7 74.4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.process-card {
+    background: linear-gradient(231.56deg, rgba(90, 0, 104, 0.25) 0%, rgba(255, 67, 42, 0.25) 11.56%, rgba(224, 67, 73, 0.25) 24.48%, rgba(42, 63, 255, 0.25) 80.21%, rgba(0, 2, 53, 0.25) 100%);
+    border-radius: 8px;
+}
+
+.process-card__text {
+    font-family: poppinsRegular, serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #fff;
+
+}

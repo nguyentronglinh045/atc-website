@@ -1,0 +1,218 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body{
+    padding: 0!important;
+    background-color: #000235;
+    overflow-x: hidden;
+}
+#__next {
+    height: 100%;
+}
+input::placeholder {
+    color: #fff;
+}
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.carousel.carousel-slider {
+    overflow: unset !important;
+}
+@font-face {
+    font-family: manropeBold;
+    src: url(../pages/assets/fonts/manrope/Manrope-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: manropeExtraBold;
+    src: url(../pages/assets/fonts/manrope/Manrope-ExtraBold.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: manropeExtraLight;
+    src: url(../pages/assets/fonts/manrope/Manrope-ExtraLight.ttf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: manropeLight;
+    src: url(../pages/assets/fonts/manrope/Manrope-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: manropeMedium;
+    src: url(../pages/assets/fonts/manrope/Manrope-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: manropeRegular;
+    src: url(../pages/assets/fonts/manrope/Manrope-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: manropeSemiBold;
+    src: url(../pages/assets/fonts/manrope/Manrope-SemiBold.ttf);
+    font-weight: 600;
+}
+
+/**/
+@font-face {
+    font-family: openSansBold;
+    src: url(../pages/assets/fonts/open-sans/OpenSans-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: openSansExtraBold;
+    src: url(../pages/assets/fonts/open-sans/OpenSans-ExtraBold.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: openSansLight;
+    src: url(../pages/assets/fonts/open-sans/OpenSans-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: openSansMedium;
+    src: url(../pages/assets/fonts/open-sans/OpenSans-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: openSansRegular;
+    src: url(../pages/assets/fonts/open-sans/OpenSans-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: openSansSemiBold;
+    src: url(../pages/assets/fonts/open-sans/OpenSans-SemiBold.ttf);
+    font-weight: 600;
+}
+/**/
+@font-face {
+    font-family: poppinsBold;
+    src: url(../pages/assets/fonts/poppins/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: poppinsBoldItalic;
+    src: url(../pages/assets/fonts/poppins/Poppins-BoldItalic.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: poppinsExtraBold;
+    src: url(../pages/assets/fonts/poppins/Poppins-ExtraBold.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: poppinsLight;
+    src: url(../pages/assets/fonts/poppins/Poppins-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: poppinsMedium;
+    src: url(../pages/assets/fonts/poppins/Poppins-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: poppinsRegular;
+    src: url(../pages/assets/fonts/poppins/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: poppinsSemiBold;
+    src: url(../pages/assets/fonts/poppins/Poppins-SemiBold.ttf);
+    font-weight: 600;
+}
+/**/
+@font-face {
+    font-family: DMSansBold;
+    src: url(../pages/assets/fonts/dm-sans/DMSans-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: DMSansMedium;
+    src: url(../pages/assets/fonts/dm-sans/DMSans-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: DMSansRegular;
+    src: url(../pages/assets/fonts/dm-sans/DMSans-Regular.ttf);
+    font-weight: 400;
+}
+/**/
+@font-face {
+    font-family: VolkhovRegular;
+    src: url(../pages/assets/fonts/volkhov/Volkhov-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: VolkhovBold;
+    src: url(../pages/assets/fonts/volkhov/Volkhov-Bold.ttf);
+    font-weight: 700;
+}
+
+/**/
+@font-face {
+    font-family: helveticaNeueRegular;
+    src: url(../pages/assets/fonts/helvetica-neu/HelveticaNeueRegular.ttf);
+    font-weight: 400;
+}
+/**/
+@font-face {
+    font-family: interRegular;
+    src: url(../pages/assets/fonts/inter/Inter-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: interMedium;
+    src: url(../pages/assets/fonts/inter/Inter-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: interSemiBold;
+    src: url(../pages/assets/fonts/inter/Inter-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: interBold;
+    src: url(../pages/assets/fonts/inter/Inter-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: interExtraBold;
+    src: url(../pages/assets/fonts/inter/Inter-ExtraBold.ttf);
+    font-weight: 800;
+}
+/**/
+@font-face {
+    font-family: gilroyRegular;
+    src: url(../pages/assets/fonts/gilroy/Gilroy-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: gilroyMedium;
+    src: url(../pages/assets/fonts/gilroy/Gilroy-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: gilroySemiBold;
+    src: url(../pages/assets/fonts/gilroy/Gilroy-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: gilroyBold;
+    src: url(../pages/assets/fonts/gilroy/Gilroy-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: gilroyExtraBold;
+    src: url(../pages/assets/fonts/gilroy/Gilroy-ExtraBold.ttf);
+    font-weight: 800;
+}

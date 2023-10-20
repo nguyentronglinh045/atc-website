@@ -1,0 +1,12 @@
+.other-services_wrapper{
+ background-color: #000235;
+}
+
+.other-services_wrapper .text__main{
+  background: linear-gradient(90.32deg, #C517F1 -5.28%, #5AFFFF 109.58%, #E91ED5 164.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.other-services_wrapper .btn{
+  background: linear-gradient(90.32deg, #C517F1 -5.28%, #5AFFFF 109.58%, #E91ED5 164.37%);
+}

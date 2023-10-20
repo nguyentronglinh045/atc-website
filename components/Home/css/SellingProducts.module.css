@@ -1,0 +1,32 @@
+.selling-products_wrapper{
+  background: rgba(90, 0, 104, 0.35);
+}
+
+.selling-products_wrapper .text__main{
+  font-family: openSansBold, serif;
+}
+.selling-products_wrapper .linear__text{
+  background: linear-gradient(267.37deg, #B83A86 28.3%, #9130F4 65.31%, #3F3FFF 96.83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.selling-products_wrapper .text__about{
+  font-family: poppinsSemiBold, serif;
+}
+.selling-products_wrapper .text__title{
+  font-family: poppinsBold, serif;
+}
+
+.btn-more{
+  background: linear-gradient(267.37deg, #B83A86 28.3%, #9130F4 65.31%, #3F3FFF 96.83%);
+  border-radius: 10px;
+}
+.background-btn{
+  background: linear-gradient(180deg,rgba(106, 27, 154, 1) ,rgba(255, 111, 0, 1));
+}
+.word-break_title{
+  word-wrap: break-word;
+}
+.word-break_content{
+  word-wrap: break-word;
+}
